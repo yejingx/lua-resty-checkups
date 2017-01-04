@@ -7,7 +7,7 @@ cache:
 services:
     - redis-server
 env:
-    - V_OPENRESTY=1.9.15.1
+    - V_OPENRESTY=1.11.2.1
 install:
     - cpanm -v --notest Test::Nginx
 before_script:
